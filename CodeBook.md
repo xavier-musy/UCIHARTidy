@@ -1,12 +1,19 @@
-TidyData.txt contains the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation, for each activity and each subject.
+Raw data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  This file also contains a ReadMe.txt outlining the raw data and and feature_info.txt for feature selection.  
 
-"activityname" 
-"subject"
+TidyData.txt contains the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation, for each activity and each subject.  Variable naming has been processed to to be more human-friendly.  
+
+TidyData.txt contains the following variables:
+
+"activityname" - the activity label 
+"subject" - the subject 
+
+The remaining variables are the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation.  Time domain signal variables start with the word time, and frequency domain signal variables start with word frequency.  Dashes and parantheses have been removed, and variables related to standard deviation (originally std) have been renamed to include standarddeviation.  Lastly all variables are lower cased.  
+
 "timebodyaccmeanx"
 "timebodyaccmeany" 
 "timebodyaccmeanz" 
 "timebodyaccstandarddeviationx" 
-"timebodyaccstandarddeviationy" 
+"timebodyaccstandarddeviationy"  
 "timebodyaccstandarddeviationz" 
 "timegravityaccmeanx" 
 "timegravityaccmeany" 
