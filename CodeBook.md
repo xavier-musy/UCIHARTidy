@@ -4,89 +4,87 @@ TidyData.txt contains the average of each variable in the raw data set pertainin
 
 TidyData.txt contains the following variables:
 
-"activityname" - the activity label 
+activityname - the activity label 
 
-"subject" - the subject 
+subject - the subject 
 
 The remaining variables are the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation.  Time domain signal variables start with the word time, and frequency domain signal variables start with word frequency.  Dashes and parantheses have been removed, and variables related to standard deviation (originally std) have been renamed to include standarddeviation.  Lastly all variables are lower cased.  
 
-   |    timebodyaccmeanx  |    
-  |    timebodyaccmeany  |     
-  |    timebodyaccmeanz  |     
-  |    timebodyaccstandarddeviationx  |     
-  |    timebodyaccstandarddeviationy  |      
-  |    timebodyaccstandarddeviationz  |     
-  |    timegravityaccmeanx  |     
-  |    timegravityaccmeany  |     
-  |    timegravityaccmeanz  |     
-  |    timegravityaccstandarddeviationx  |     
-  |    timegravityaccstandarddeviationy  |    
-  |    timegravityaccstandarddeviationz  |     
-  |    timebodyaccjerkmeanx  |     
-  |    timebodyaccjerkmeany  |    
-  |    timebodyaccjerkmeanz  |     
-  |    timebodyaccjerkstandarddeviationx  |    
-  |    timebodyaccjerkstandarddeviationy  |     
-  |    timebodyaccjerkstandarddeviationz  |     
-  |    timebodygyromeanx  |       |    timebodygyromeany  |     
-  |    timebodygyromeanz  |    
-  |    timebodygyrostandarddeviationx  |    
-  |    timebodygyrostandarddeviationy  |    
-  |    timebodygyrostandarddeviationz  |    
-  |    timebodygyrojerkmeanx  |     
-  |    timebodygyrojerkmeany  |     
-  |    timebodygyrojerkmeanz  |     
-  |    timebodygyrojerkstandarddeviationx  |     
-  |    timebodygyrojerkstandarddeviationy  |     
-  |    timebodygyrojerkstandarddeviationz  |     
-  |    timebodyaccmagmean  |    
-  |    timebodyaccmagstandarddeviation  |     
-  |    timegravityaccmagmean  |     
-  |    timegravityaccmagstandarddeviation  |     
-  |    timebodyaccjerkmagmean  |     
-  |    timebodyaccjerkmagstandarddeviation  |     
-  |    timebodygyromagmean  |     
-  |    timebodygyromagstandarddeviation  |    
-  |    timebodygyrojerkmagmean  |     
-  |    timebodygyrojerkmagstandarddeviation  |    
-  |    frequencybodyaccmeanx  |    
-  |    frequencybodyaccmeany  |     
-  |    frequencybodyaccmeanz  |     
-  |    frequencybodyaccstandarddeviationx  |     
-  |    frequencybodyaccstandarddeviationy  |     
-  |    frequencybodyaccstandarddeviationz  |     
-  |    frequencybodyaccmeanfreqx  |     
-  |    frequencybodyaccmeanfreqy  |    
-  |    frequencybodyaccmeanfreqz  |     
-  |    frequencybodyaccjerkmeanx  |     
-  |    frequencybodyaccjerkmeany  |     
-  |    frequencybodyaccjerkmeanz  |     
-  |    frequencybodyaccjerkstandarddeviationx  |    
-  |    frequencybodyaccjerkstandarddeviationy  |     
-  |    frequencybodyaccjerkstandarddeviationz  |     
-  |    frequencybodyaccjerkmeanfreqx  |     
-  |    frequencybodyaccjerkmeanfreqy  |     
-  |    frequencybodyaccjerkmeanfreqz  |     
-  |    frequencybodygyromeanx  |     
-  |    frequencybodygyromeany  |    
-  |    frequencybodygyromeanz  |     
-  |    frequencybodygyrostandarddeviationx  |     
-  |    frequencybodygyrostandarddeviationy  |    
-  |    frequencybodygyrostandarddeviationz  |    
-  |    frequencybodygyromeanfreqx  |     
-  |    frequencybodygyromeanfreqy  |     
-  |    frequencybodygyromeanfreqz  |    
-  |    frequencybodyaccmagmean  |     
-  |    frequencybodyaccmagstandarddeviation  |     
-  |    frequencybodyaccmagmeanfreq  |     
-  |    frequencybodybodyaccjerkmagmean  |     
-  |    frequencybodybodyaccjerkmagstandarddeviation  |     
-  |    frequencybodybodyaccjerkmagmeanfreq  |     
-  |    frequencybodybodygyromagmean  |    
-  |    frequencybodybodygyromagstandarddeviation  |     
-  |    frequencybodybodygyromagmeanfreq  |     
-  |    frequencybodybodygyrojerkmagmean  |     
-  |    frequencybodybodygyrojerkmagstandarddeviation  |    
-  |    frequencybodybodygyrojerkmagmeanfreq  |    
-
-
+timebodyaccmeanx
+timebodyaccmeany 
+timebodyaccmeanz 
+timebodyaccstandarddeviationx 
+timebodyaccstandarddeviationy  
+timebodyaccstandarddeviationz 
+timegravityaccmeanx 
+timegravityaccmeany 
+timegravityaccmeanz 
+timegravityaccstandarddeviationx 
+timegravityaccstandarddeviationy
+timegravityaccstandarddeviationz 
+timebodyaccjerkmeanx 
+timebodyaccjerkmeany
+timebodyaccjerkmeanz 
+timebodyaccjerkstandarddeviationx
+timebodyaccjerkstandarddeviationy 
+timebodyaccjerkstandarddeviationz 
+timebodygyromeanx timebodygyromeany 
+timebodygyromeanz
+timebodygyrostandarddeviationx
+timebodygyrostandarddeviationy
+timebodygyrostandarddeviationz
+timebodygyrojerkmeanx 
+timebodygyrojerkmeany 
+timebodygyrojerkmeanz 
+timebodygyrojerkstandarddeviationx 
+timebodygyrojerkstandarddeviationy 
+timebodygyrojerkstandarddeviationz 
+timebodyaccmagmean
+timebodyaccmagstandarddeviation 
+timegravityaccmagmean 
+timegravityaccmagstandarddeviation 
+timebodyaccjerkmagmean 
+timebodyaccjerkmagstandarddeviation 
+timebodygyromagmean 
+timebodygyromagstandarddeviation
+timebodygyrojerkmagmean 
+timebodygyrojerkmagstandarddeviation
+frequencybodyaccmeanx
+frequencybodyaccmeany 
+frequencybodyaccmeanz 
+frequencybodyaccstandarddeviationx 
+frequencybodyaccstandarddeviationy 
+frequencybodyaccstandarddeviationz 
+frequencybodyaccmeanfreqx 
+frequencybodyaccmeanfreqy
+frequencybodyaccmeanfreqz 
+frequencybodyaccjerkmeanx 
+frequencybodyaccjerkmeany 
+frequencybodyaccjerkmeanz 
+frequencybodyaccjerkstandarddeviationx
+frequencybodyaccjerkstandarddeviationy 
+frequencybodyaccjerkstandarddeviationz 
+frequencybodyaccjerkmeanfreqx 
+frequencybodyaccjerkmeanfreqy 
+frequencybodyaccjerkmeanfreqz 
+frequencybodygyromeanx 
+frequencybodygyromeany
+frequencybodygyromeanz 
+frequencybodygyrostandarddeviationx 
+frequencybodygyrostandarddeviationy
+frequencybodygyrostandarddeviationz
+frequencybodygyromeanfreqx 
+frequencybodygyromeanfreqy 
+frequencybodygyromeanfreqz
+frequencybodyaccmagmean 
+frequencybodyaccmagstandarddeviation 
+frequencybodyaccmagmeanfreq 
+frequencybodybodyaccjerkmagmean 
+frequencybodybodyaccjerkmagstandarddeviation 
+frequencybodybodyaccjerkmagmeanfreq 
+frequencybodybodygyromagmean
+frequencybodybodygyromagstandarddeviation 
+frequencybodybodygyromagmeanfreq 
+frequencybodybodygyrojerkmagmean 
+frequencybodybodygyrojerkmagstandarddeviation
+frequencybodybodygyrojerkmagmeanfreq
