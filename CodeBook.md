@@ -1,6 +1,6 @@
 Raw data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.  This file also contains a ReadMe.txt outlining the raw data and and feature_info.txt for feature selection.  
 
-TidyData.txt contains the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation, for each activity and each subject.  Variable naming has been processed to to be more human-friendly.  
+TidyData.txt contains the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation, for each activity and each subject.  Variable naming has been processed to be more human-friendly.  
 
 TidyData.txt contains the following variables:
 
