@@ -11,7 +11,7 @@ Specifically, run_analysis.R will download:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-And extract it in the Data directory.  
+And extract it a directory named Data.  
 
 A tidy data set will be saved in the Data directory, as TidyData.txt.
 
