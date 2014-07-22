@@ -5,6 +5,7 @@ TidyData.txt contains the average of each variable in the raw data set pertainin
 TidyData.txt contains the following variables:
 
 "activityname" - the activity label 
+
 "subject" - the subject 
 
 The remaining variables are the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation.  Time domain signal variables start with the word time, and frequency domain signal variables start with word frequency.  Dashes and parantheses have been removed, and variables related to standard deviation (originally std) have been renamed to include standarddeviation.  Lastly all variables are lower cased.  
