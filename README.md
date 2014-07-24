@@ -1,9 +1,7 @@
 UCI Human Activity Recognition Using Smartphones Tidy Dataset
 ==========
 
-One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
-
-This repo contains **run_analysis.R**, which will create a tidy dataset from the UCI Human Activity Recognition Using Smartphones Dataset [1] collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+This repo contains **run_analysis.R**, which will create a tidy dataset from the UCI Human Activity Recognition Using Smartphones Dataset [1] collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of source data is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
@@ -21,7 +19,7 @@ run_analysis.R will then process the data:
 4. Appropriately labels the data set with descriptive variable names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-A tidy data set will be saved in the same Data directory, as TidyData.txt.
+The final tidy data set will be saved in the same Data directory, as TidyData.txt.
 
 The [Code book](CodeBook.md) details the tidy data.  
 
