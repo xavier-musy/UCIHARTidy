@@ -2,7 +2,7 @@ Raw data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fproj
 
 TidyData.txt contains the average of each variable in the raw data set pertaining to measurements on the mean and standard deviation, for each activity and each subject.  Variable naming has been processed to be more human-friendly.  
 
-TidyData.txt contains the following variables:
+TidyData.txt contains the following variables (see above feature_info.txt for original variable naming and description):
 
 activityname - the activity label 
 
